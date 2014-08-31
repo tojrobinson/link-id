@@ -1,0 +1,34 @@
+{
+  "name": "link-id",
+  "version": "1.0.0",
+  "description": "Get the ID from various media links.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tojrobinson/link-id.git"
+  },
+  "keywords": [
+    "link",
+    "id",
+    "youtube",
+    "vimeo",
+    "soundcloud",
+    "url"
+  ],
+  "author": {
+     "name": "Tully Robinson",
+     "email": "tully@tojr.org",
+     "url": "http://tully.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tojrobinson/link-id/issues"
+  },
+  "homepage": "https://github.com/tojrobinson/link-id"
+}
