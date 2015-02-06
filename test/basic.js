@@ -35,4 +35,19 @@ assert.deepEqual(
    soundCloudExpected
 );
 
+assert.equal(
+   ml('https://soundcloud.com/user'),
+   null
+);
+
+assert.deepEqual(
+   ml('https://soundcloud.com/user/type/perma-url'),
+   {id: 'user/type/perma-url', type: 'soundcloud'}
+);
+
+assert.deepEqual(
+   ml('https://soundcloud.com/user/media?a=a&b=b'),
+   soundCloudExpected
+);
+
 console.log('All tests passed. You are awesome!');

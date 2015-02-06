@@ -7,7 +7,7 @@ module.exports = function(url) {
    // patterns
    var youTube = /youtu.*(?:(?:\.be|v|embed)\/|watch\?.*v=)([^#&?]*).*/i;
    var vimeo = /vimeo.com.*\/(\d+)/i;
-   var soundCloud = /soundcloud.com\/([^?]+)/i;
+   var soundCloud = /soundcloud.com\/([^/?]+\/[^?]+)/i;
 
    if (match = youTube.exec(url)) {
       info = {
